@@ -13,8 +13,8 @@ def copy_file(command: str) -> None:
 
     try:
         with (
-            open(parts[1], 'rb') as src_file,
-            open(parts[2], 'wb') as dest_file
+            open(parts[1], "rb") as src_file,
+            open(parts[2], "wb") as dest_file
         ):
             dest_file.write(src_file.read())
 

@@ -19,4 +19,4 @@ def copy_file(command: str) -> None:
             dest_file.write(src_file.read())
 
     except Exception as e:
-        print(f"An error occurred: {e}")
+        print(f"An unknown error occurred: {e}")
